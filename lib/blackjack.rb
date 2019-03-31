@@ -37,6 +37,11 @@ until input == 'h' || input == 's'
   invalid_command
   prompt_user
 end
+if input = "h"
+
+elsif input = "s"
+
+end
 
 def invalid_command
   puts "Please enter a valid command"
