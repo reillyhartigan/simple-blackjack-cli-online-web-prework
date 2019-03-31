@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-card = rand(1..11)
+rand(1..11)
 end
 
 def display_card_total(card_total)
@@ -25,7 +25,7 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
-
+deal_card = 
 end
 
 def hit?
