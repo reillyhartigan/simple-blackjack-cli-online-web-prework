@@ -27,6 +27,7 @@ end
 def initial_round
 cards = [deal_card, deal_card]
 card_total = cards.inject(0, :+)
+puts card_total
 end
 
 def hit?
