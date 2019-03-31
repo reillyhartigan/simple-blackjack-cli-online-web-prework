@@ -17,7 +17,7 @@ puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
-get.chomp
+gets.chomp
 end
 
 def end_game(card_total)
