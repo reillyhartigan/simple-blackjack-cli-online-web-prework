@@ -42,6 +42,7 @@ if input = "h"
 elsif input = "s"
 
 end
+end
 
 def invalid_command
   puts "Please enter a valid command"
