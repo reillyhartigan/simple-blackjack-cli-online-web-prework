@@ -18,7 +18,7 @@ end
 
 def get_user_input(value)
 get.chomp(value)
-return value
+puts "value"
 end
 
 def end_game(card_total)
